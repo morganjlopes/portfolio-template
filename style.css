@@ -30,6 +30,34 @@ sup, .sup {
   font-size: 16px;
 }
 
+.underline::after {
+  content: ' ';
+  border-bottom: 3px solid;
+  position: relative;
+  display: block;
+  width: 50px;
+  padding-top: 1rem;
+}
+
+.underline.text-center::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-inverse {
+  margin-top: 180px;
+  padding: 1px 0px;
+}
+
+.section-inverse > div {
+  margin-top: -180px;
+}
+
+.card-footer {
+  background-color: white;
+  padding: 1rem 1rem;
+}
+
 .background-image {
   background-position: center center;
   background-size: cover;
@@ -51,6 +79,10 @@ header.p-section {
 
 .p-section {
   padding: 100px 0px;
+}
+
+.p-section-lg {
+  padding: 160px 0px;
 }
 
 .container-lg {
@@ -107,7 +139,7 @@ header.p-section {
   position: absolute;
   z-index: -2;
   filter: url(#marker-shape);
-  left: -2px;
+  left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
 }
