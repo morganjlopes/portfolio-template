@@ -39,6 +39,11 @@ sup, .sup {
   padding-top: 1rem;
 }
 
+.toast {
+  bottom: 1rem;
+  right: 1rem;
+}
+
 .underline.text-center::after {
   margin-left: auto;
   margin-right: auto;
