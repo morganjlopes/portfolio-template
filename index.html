@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="style.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+    <defs>
+      <filter id="marker-shape">
+        <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+      </filter>
+    </defs>
+  </svg>
+
+  <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Morgan J Lopes</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class='text-center p-section'>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-md-6 offset-md-3'>
+          <sup>Meet Morgan Lopes</sup>
+          <h1>Combining <span class='marker-highlight'>technology</span> and creative <span class='marker-highlight'>problem-solving</span> to positively impact others.</h1>
+          <p class='lead mb-5'>I use technology to connect people and help others reach their full potential.</p>
+
+          <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a>
+          <a href='#' class='btn btn-outline-primary'><i class="bi-envelope"></i> Send Email</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id='company' class='p-section'>
+    <div class='container text-center'>
+      <label class='sup mb-3 text-muted'>Employment History</label>
+
+      <div class='row justify-content-center d-flex align-items-center'>
+        <div class='col-2'>
+          <img src="img/new-story-logo.png" class='px-3'>
+        </div>
+        <div class='col-2'>
+          <img src="img/polar-notion-logo.png" class='px-3'>
+        </div>
+        <div class='col-2'>
+          <img src="img/tenrocket-logo.png" class='px-3'>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='portfolio' class='p-section bg-light'>
+    <div class='container'>
+      <sup>Portfolio</sup>
+      <h2 class='mb-5'>Featured Work</h2>
+
+      <div class='row mb-5'>
+        <div class='col-sm-4'>
+          <div class='card'>
+            <div class='background-image' style='background-image: url(img/endit-movement.png)'>
+              <img src='img/spacer-portrait.png'>
+            </div>
+            <div class='card-body'>
+
+              <h3>END IT Movement</h3>
+              <p class='mb-3'>Project description...</p>
+              
+              <a href='#' class='btn btn-sm btn-primary'><i class="bi-play-fill"></i> Watch</a>
+              <a href='#' class='btn btn-sm btn-outline-dark'><i class="bi-github"></i> Code</a>
+              <a href='#' class='btn btn-sm btn-outline-dark'><i class="bi-power"></i> Demo</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class='col-sm-4'>
+          <div class='card'>
+            <div class='background-image' style='background-image: url(img/aggregate-law.png)'>
+              <img src='img/spacer-portrait.png'>
+            </div>
+            <div class='card-body'>
+
+              <h3>AggregateLaw</h3>
+              <p class='mb-3'>Project description...</p>
+              
+              <a href='#' class='btn btn-sm btn-primary'><i class="bi-play-fill"></i> Watch</a>
+              <a href='#' class='btn btn-sm btn-outline-dark'><i class="bi-github"></i> Code</a>
+              <a href='#' class='btn btn-sm btn-outline-dark'><i class="bi-power"></i> Demo</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class='col-sm-4'>
+          <div class='card'>
+            <div class='background-image' style='background-image: url(img/growing-leaders.png)'>
+              <img src='img/spacer-portrait.png'>
+            </div>
+            <div class='card-body'>
+
+              <h3>Habitudes Online</h3>
+              <p class='mb-3'>Project description...</p>
+              
+              <a href='#' class='btn btn-sm btn-primary'><i class="bi-play-fill"></i> Watch</a>
+              <a href='#' class='btn btn-sm btn-outline-dark'><i class="bi-github"></i> Code</a>
+              <a href='#' class='btn btn-sm btn-outline-dark'><i class="bi-power"></i> Demo</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class='pt-3'>Other Clients and Past Projects</h3>
+      <div class='row'>
+        <div class='col-sm-5'>
+          <p class='pb-3 lead'>These items are a collection of companies I've worked with, projects I've undertaken, and products I've helped launch. They include things like:</p>
+
+          <ul class='lead'>
+            <li>Brochure Websites</li>
+            <li>User Experience Design</li>
+            <li>App Development</li>
+            <li>Go to Market Strategy</li>
+            <li>MVP Design and Implementation</li>
+          </ul>
+        </div>
+        <div class='col-sm-7'>
+
+          <ul class='text-center list-inline w-md ms-auto me-auto'>
+            <li class='list-inline-item'>
+              <a href='https://hypepotamus.com/featured-events/startup-picture-day-summer-2019/' target='_blank' class='btn'>Startup Picture Day</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.trustsandcastle.com/' target='_blank' class='btn'>Sandcastle</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.shift.org/' target='_blank' class='btn'>Shift.org</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://app.jsmoneycoach.com/' target='_blank' class='btn'>JSMoney Coach</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://newstorycharity.org/' target='_blank' class='btn'>New Story</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.feefavor.com/' target='_blank' class='btn'>FeeFavor</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.dailylectio.net/' target='_blank' class='btn'>DailyLectio</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://simplygrants.com/' target='_blank' class='btn'>Simply Grants</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.cimienta.com/' target='_blank' class='btn'>Cimienta</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.investatlanta.com/' target='_blank' class='btn'>Invest Atlanta</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://loveatlanta.com/serve' target='_blank' class='btn'>Love Atlanta</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.blackgirlventures.org/' target='_blank' class='btn'>Black Girl Ventures</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://northpoint.org/' target='_blank' class='btn'>North Point Church</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://www.louiegiglio.com/' target='_blank' class='btn'>Louie Giglio</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://mattredman.com/' target='_blank' class='btn'>Matt Redman</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://passioncitychurch.com/' target='_blank' class='btn'>Passion City Church</a>
+            </li>
+            <li class='list-inline-item'>
+              <a href='https://passionconferences.com/' target='_blank' class='btn'>Passion Conference</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </section>
+
+  <section id='about' class='p-section'>
+    <div class='container container-lg'>
+      <sup>About</sup>
+      <h2 class='mb-5'>I am Morgan Lopes</h2>
+
+      <div class='row flex-row'>
+        <div class='col-sm-4'>
+          <div class='p-3 sticky-top' style='top: 85px;'>
+            <img src="img/morganjlopes-2021.jpg" class='circle mb-3'>
+
+            <ul class='list-inline mb-0 text-center'>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='#' class='text-dark'>
+                  <i class="bi-linkedin"></i>
+                </a>
+              </li>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='#' class='text-dark'>
+                  <i class="bi-github"></i>
+                </a>
+              </li>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='#' class='text-dark'>
+                  <i class="bi-twitter"></i>
+                </a>
+              </li>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='#' class='text-dark'>
+                  <i class="bi-instagram"></i>
+                </a>
+              </li>
+              <li class='list-inline-item h4 mb-0'>
+                <a href='#' class='text-dark'>
+                  <i class="bi-rss"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='col-sm-8'>
+          <blockquote>Actively writing code and building high-functioning teams.</blockquote>
+
+          <img src="img/github-activity.png" class='mb-3'>
+
+          <p class='lead'>Thought-filled software engineer and entrepreneur who understands that deliberate, <span class='marker-highlight'>consistent progress</span> over time is life's greatest growth strategy.</p>
+          <p class='lead'>Regardless of his job titles, Morgan sees leadership as a choice, not a rank. He strives to make that choice daily and challenges others to do the same. Currently serving as CTO at <span class='marker-highlight'>Fast Company's World Most Innovative Company</span> (x4), consulting startup founders, and Launching Book ("Code School") to help more people transition into tech.</p>
+          
+          <p class='lead mb-0'>Favorite Tools:</p>
+
+          <ul class='lead'>
+            <li><span class='marker-highlight'>Ruby on Rails</span></li>
+            <li>Github</li>
+            <li>Heroku</li>
+            <li>AWS</li>
+          </ul>
+
+          <div class='mt-5'>
+            <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='testimonials' class='p-section bg-dark text-white'>
+    <div class='container'>
+      <sup>Testimonials</sup>
+      <h2>Kind Words<br>from Great People</h2>
+
+      <div class='row card-columns'>
+        <div class='col-sm-4'>
+          <div class='p-3'>
+            <div class='mt-5'>
+              <blockquote class='quotation'>“Final product exceeded my expectations”</blockquote>
+              <p class='lead'>We worked on both a website and then later on a companion iOS App. Great to work with, easy communications, and the final product exceeded my expectations.</p>
+            </div>
+            <div class=''>
+              <img src="https://www.nuveen.com/en-us/global/-/media/nuveen/people/romans_scott_v02_po_circle_bw_gs_mres.ashx?sc_lang=en&h=780&w=780&la=en&hash=B351181D9A4CEC16CD3C0C85474C16AF" class='circle testimonial-image'>
+              <h3 class='pt-3'>Scott</h3>
+              <em>Web, iOS, and Android App</a></em>
+            </div>
+          </div>
+        </div>
+
+        <div class='col-sm-4'>
+          <div class='p-3'>
+            <div class='mt-5'>
+              <blockquote class='quotation'>“Doing great things by helping build strong minds”</blockquote>
+              <p class='lead'>Morgan Lopes is a man doing great things by helping build strong minds ready for the dynamic world of problem solving. In a time where pedagogical learning seems to be fading, Morgan steps in to bring confidence to future developers and problem solvers willing to listen!</p>
+            </div>
+            <div class=''>
+              <img src="img/testimonial-one.png" class='circle testimonial-image'>
+              <h3 class='pt-3'>Code School Student</h3>
+              <em>Presentation Feedback</em>
+            </div>
+          </div>
+        </div>
+
+        <div class='col-sm-4'>
+          <div class='p-3'>
+            <div class='mt-5'>
+              <blockquote class='quotation'>“Transparent, professional, and good...”</blockquote>
+              <p class='lead'>Great to work with. Transparent, professional, and good at it. I would recommend to anyone.</p>
+            </div>
+            <div class=''>
+              <img src="https://www.tenrocket.com/images/testimonial_jennifer_downs.jpg" class='circle testimonial-image'>
+              <h3 class='pt-3'>Jennifer</h3>
+              <em>Three Sided Marketplace</em>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id='contact' class='p-section bg-dark text-white'>
+    <div class='container container-lg text-center'>
+
+      <sup>Contact</sup>
+      <h2>Let's Talk</h2>
+
+      <p class='w-sm ms-auto me-auto'>Hey! These are a few kind words about why you might want to chat. Talking points include:</p>
+
+      <ul class='list-unstyled'>
+        <li>Coffee (The bougier the better)</li>
+        <li>Running (I'm training for an Ultra)</li>
+        <li>Reading (Fiction, nonfiction... all of it)</li>
+      </ul>
+
+      <p>Let's chat.</p>
+      
+      <div class='mt-5'>
+        <a href='#' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a>
+        <a href='#' class='btn btn-outline-primary'><i class="bi-envelope"></i> Send Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class='bg-dark p-5 text-white'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-6'>
+          <ul class='list-inline'>
+            <li class='list-inline'>
+              Built on <a href='https://getbootstrap.com/'>Bootstrap</a> and Developed by Morgan J Lopes  
+            </li>
+          </ul>
+        </div>
+
+        <div class='col-sm-6'>
+          <ul class='list-inline float-end'>
+            <li class='list-inline-item h4 mb-0 me-3'>
+              <a href='#' class='text-light'>
+                <i class="bi-linkedin"></i>
+              </a>
+            </li>
+            <li class='list-inline-item h4 mb-0 me-3'>
+              <a href='#' class='text-light'>
+                <i class="bi-github"></i>
+              </a>
+            </li>
+            <li class='list-inline-item h4 mb-0 me-3'>
+              <a href='#' class='text-light'>
+                <i class="bi-twitter"></i>
+              </a>
+            </li>
+            <li class='list-inline-item h4 mb-0 me-3'>
+              <a href='#' class='text-light'>
+                <i class="bi-instagram"></i>
+              </a>
+            </li>
+            <li class='list-inline-item h4 mb-0 me-3'>
+              <a href='#' class='text-light'>
+                <i class="bi-rss"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
