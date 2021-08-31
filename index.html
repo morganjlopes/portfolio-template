@@ -11,15 +11,6 @@
 
 </head>
 <body>
-  <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
-    <defs>
-      <filter id="marker-shape">
-        <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
-        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
-      </filter>
-    </defs>
-  </svg>
-
   <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><i class="bi-lightning-charge"></i> Morgan J Lopes</a>
@@ -495,5 +486,14 @@
       <a href='https://github.com/morganjlopes/portfolio-template' target='_blank' class='btn btn-outline-primary btn-sm'>Check it out!</a>
     </div>
   </div>
+
+  <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+    <defs>
+      <filter id="marker-shape">
+        <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+      </filter>
+    </defs>
+  </svg>
 </body>
 </html>
